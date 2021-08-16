@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1117D2A497C6D676CE9010CC /* BiDirectionalLinkedList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1117DE89F084C2F0EECE7CDD /* BiDirectionalLinkedList.framework */; };
 		1117D56FAD22DD540D704740 /* BiDirectionalLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D6DF166AF1D7866230FE /* BiDirectionalLinkedListTests.swift */; };
 		1117D908283D455CDB2E57A2 /* BiDirectionalLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1117D863B4BB60BA3D2FFC22 /* BiDirectionalLinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1117DD1384E00593790A7778 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D69B4C4D367010726CE8 /* main.swift */; };
+		8384A6FD26CAF46E00849DB9 /* PGDocFixer in Frameworks */ = {isa = PBXBuildFile; productRef = 8384A6FC26CAF46E00849DB9 /* PGDocFixer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,11 +24,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8384A6F126CAF44100849DB9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1117D1318E186498C88456EF /* .jazzy.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .jazzy.yaml; sourceTree = "<group>"; };
 		1117D21BB13B5381E2F65BA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1117D4CA36BD8A379DDFD3A3 /* BiDirectionalLinkedListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiDirectionalLinkedListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1117D5A8AE5FB42933061194 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1117D69B4C4D367010726CE8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1117D6DF166AF1D7866230FE /* BiDirectionalLinkedListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiDirectionalLinkedListTests.swift; sourceTree = "<group>"; };
 		1117D7F45B3100CBC77E444B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1117D863B4BB60BA3D2FFC22 /* BiDirectionalLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiDirectionalLinkedList.h; sourceTree = "<group>"; };
@@ -34,6 +49,8 @@
 		1117D92E7434744556D48034 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		1117DBCF79C6588BAC2C3EB1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		1117DE89F084C2F0EECE7CDD /* BiDirectionalLinkedList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BiDirectionalLinkedList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8384A6F326CAF44100849DB9 /* DocFixer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DocFixer; sourceTree = BUILT_PRODUCTS_DIR; };
+		8384A6FA26CAF44600849DB9 /* DocFixer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocFixer.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +66,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1117D2A497C6D676CE9010CC /* BiDirectionalLinkedList.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8384A6F026CAF44100849DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8384A6FD26CAF46E00849DB9 /* PGDocFixer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +99,7 @@
 			children = (
 				1117DE89F084C2F0EECE7CDD /* BiDirectionalLinkedList.framework */,
 				1117D4CA36BD8A379DDFD3A3 /* BiDirectionalLinkedListTests.xctest */,
+				8384A6F326CAF44100849DB9 /* DocFixer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +107,7 @@
 		1117D8A24C60CDE7DA8BB1FB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8384A6F426CAF44100849DB9 /* DocFixer */,
 				1117D955795A709DC0EAA101 /* BiDirectionalLinkedList */,
 			);
 			path = Sources;
@@ -110,6 +137,15 @@
 				1117D6DF166AF1D7866230FE /* BiDirectionalLinkedListTests.swift */,
 			);
 			path = BiDirectionalLinkedListTests;
+			sourceTree = "<group>";
+		};
+		8384A6F426CAF44100849DB9 /* DocFixer */ = {
+			isa = PBXGroup;
+			children = (
+				8384A6FA26CAF44600849DB9 /* DocFixer.entitlements */,
+				1117D69B4C4D367010726CE8 /* main.swift */,
+			);
+			path = DocFixer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,12 +198,38 @@
 			productReference = 1117D4CA36BD8A379DDFD3A3 /* BiDirectionalLinkedListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8384A6F226CAF44100849DB9 /* DocFixer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8384A6F726CAF44100849DB9 /* Build configuration list for PBXNativeTarget "DocFixer" */;
+			buildPhases = (
+				8384A6EF26CAF44100849DB9 /* Sources */,
+				8384A6F026CAF44100849DB9 /* Frameworks */,
+				8384A6F126CAF44100849DB9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocFixer;
+			packageProductDependencies = (
+				8384A6FC26CAF46E00849DB9 /* PGDocFixer */,
+			);
+			productName = DocFixer;
+			productReference = 8384A6F326CAF44100849DB9 /* DocFixer */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		1117D83C1303117A1E6B559F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				TargetAttributes = {
+					8384A6F226CAF44100849DB9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
 			};
 			buildConfigurationList = 1117D4D53A8959074A9BD9DF /* Build configuration list for PBXProject "BiDirectionalLinkedList" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -178,12 +240,16 @@
 				en,
 			);
 			mainGroup = 1117D489BE271F04C70CF3FB;
+			packageReferences = (
+				8384A6FB26CAF46E00849DB9 /* XCRemoteSwiftPackageReference "PGDocFixer" */,
+			);
 			productRefGroup = 1117D7CA1C3CE584B2460BE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1117DAD802CF418503CF7148 /* BiDirectionalLinkedList */,
 				1117DD1335F485262330B76E /* BiDirectionalLinkedListTests */,
+				8384A6F226CAF44100849DB9 /* DocFixer */,
 			);
 		};
 /* End PBXProject section */
@@ -221,6 +287,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8384A6EF26CAF44100849DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1117DD1384E00593790A7778 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -235,11 +309,19 @@
 		1117D0CC759107977D4A6859 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q5XWZ7S7E9;
 				INFOPLIST_FILE = Tests/BiDirectionalLinkedListTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.projectgalen.BiDirectionalLinkedListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -247,16 +329,24 @@
 		1117D1D92B37EF27129CC90D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q5XWZ7S7E9;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Sources/BiDirectionalLinkedList/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.projectgalen.BiDirectionalLinkedList;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -314,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -372,11 +462,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -385,11 +476,19 @@
 		1117D5FF13337BFC7CD9F277 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q5XWZ7S7E9;
 				INFOPLIST_FILE = Tests/BiDirectionalLinkedListTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.projectgalen.BiDirectionalLinkedListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -397,20 +496,52 @@
 		1117DB09E2097D1BEAE3658B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q5XWZ7S7E9;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Sources/BiDirectionalLinkedList/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.projectgalen.BiDirectionalLinkedList;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
+		};
+		8384A6F826CAF44100849DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Sources/DocFixer/DocFixer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5XWZ7S7E9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8384A6F926CAF44100849DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Sources/DocFixer/DocFixer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5XWZ7S7E9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -442,7 +573,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8384A6F726CAF44100849DB9 /* Build configuration list for PBXNativeTarget "DocFixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8384A6F826CAF44100849DB9 /* Debug */,
+				8384A6F926CAF44100849DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8384A6FB26CAF46E00849DB9 /* XCRemoteSwiftPackageReference "PGDocFixer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GalenRhodes/PGDocFixer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8384A6FC26CAF46E00849DB9 /* PGDocFixer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8384A6FB26CAF46E00849DB9 /* XCRemoteSwiftPackageReference "PGDocFixer" */;
+			productName = PGDocFixer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1117D83C1303117A1E6B559F /* Project object */;
 }
