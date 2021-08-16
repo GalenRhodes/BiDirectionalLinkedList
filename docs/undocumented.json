@@ -1,0 +1,208 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 20,
+      "symbol": "BiDirectionalLinkedList",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 25,
+      "symbol": "BiDirectionalLinkedList.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 27,
+      "symbol": "BiDirectionalLinkedList.init(contentsOf:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 48,
+      "symbol": "BiDirectionalLinkedList.append(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 61,
+      "symbol": "BiDirectionalLinkedList.prepend(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 74,
+      "symbol": "BiDirectionalLinkedList.removeAll()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 122,
+      "symbol": "BiDirectionalLinkedList",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 124,
+      "symbol": "BiDirectionalLinkedList.first",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 125,
+      "symbol": "BiDirectionalLinkedList.last",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 129,
+      "symbol": "BiDirectionalLinkedList.push(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 131,
+      "symbol": "BiDirectionalLinkedList.queue(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 133,
+      "symbol": "BiDirectionalLinkedList.pop()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 135,
+      "symbol": "BiDirectionalLinkedList.dequeue()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 137,
+      "symbol": "BiDirectionalLinkedList.forEach(reverse:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 139,
+      "symbol": "BiDirectionalLinkedList.forEach(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 141,
+      "symbol": "BiDirectionalLinkedList.first(where:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 143,
+      "symbol": "BiDirectionalLinkedList.last(where:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 145,
+      "symbol": "BiDirectionalLinkedList.dropLast(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 154,
+      "symbol": "BiDirectionalLinkedList.removeFirst()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 159,
+      "symbol": "BiDirectionalLinkedList.removeLast()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 164,
+      "symbol": "BiDirectionalLinkedList.removeFirst(where:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 169,
+      "symbol": "BiDirectionalLinkedList.removeLast(where:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 174,
+      "symbol": "BiDirectionalLinkedList.popFirst()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 179,
+      "symbol": "BiDirectionalLinkedList.popLast()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 184,
+      "symbol": "BiDirectionalLinkedList.removeFirst(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 189,
+      "symbol": "BiDirectionalLinkedList.removeLast(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 194,
+      "symbol": "BiDirectionalLinkedList.removeAll(where:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 196,
+      "symbol": "BiDirectionalLinkedList.makeIterator(reverse:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList/Sources/BiDirectionalLinkedList/BiDirectionalLinkedList.swift",
+      "line": 201,
+      "symbol": "BiDirectionalLinkedList",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/grhodes/Projects/2021/BiDirectionalLinkedList"
+}
