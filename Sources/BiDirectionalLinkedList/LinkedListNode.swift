@@ -17,12 +17,25 @@
 import Foundation
 import CoreFoundation
 
-class LinkedListNode<T> {
-    var nextNode: LinkedListNode<T>? = nil
-    var prevNode: LinkedListNode<T>? = nil
-    let value:    T
+@usableFromInline class LinkedListNode<T> {
+    @usableFromInline var nextNode: LinkedListNode<T>? = nil
+    @usableFromInline var prevNode: LinkedListNode<T>? = nil
+    @usableFromInline let value:    T
 
-    init(value: T) {
-        self.value = value
+    @usableFromInline init(value: T) { self.value = value }
+
+    @usableFromInline required init(from decoder: Decoder) throws where T: Codable {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        value = try c.decode(T.self, forKey: .value)
+    }
+}
+
+extension LinkedListNode: Codable where T: Codable {
+
+    enum CodingKeys: String, CodingKey { case value }
+
+    @usableFromInline func encode(to encoder: Encoder) throws {
+        var c = encoder.container(keyedBy: CodingKeys.self)
+        try c.encode(value, forKey: .value)
     }
 }

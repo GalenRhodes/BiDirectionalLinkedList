@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1117D11BA8FB7ECD0E38A3C6 /* BiDirectionalLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1117DAD4A9A2C4A2F196E8D3 /* BiDirectionalLinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1117D27C5EFD5144FD9E2609 /* BiDirectionalLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D53C76549EE773ABC15D /* BiDirectionalLinkedList.swift */; };
 		1117D2A497C6D676CE9010CC /* BiDirectionalLinkedList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1117DE89F084C2F0EECE7CDD /* BiDirectionalLinkedList.framework */; };
 		1117D5684AF6F13AF59B9CA9 /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D4C3053878EB945B7166 /* LinkedListNode.swift */; };
 		1117D56FAD22DD540D704740 /* BiDirectionalLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D6DF166AF1D7866230FE /* BiDirectionalLinkedListTests.swift */; };
-		1117DC6F3F731E70D2A03153 /* LinkedListIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D9433C7A61AA29A9D52A /* LinkedListIterator.swift */; };
 		1117DD1384E00593790A7778 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D69B4C4D367010726CE8 /* main.swift */; };
 		8384A6FD26CAF46E00849DB9 /* PGDocFixer in Frameworks */ = {isa = PBXBuildFile; productRef = 8384A6FC26CAF46E00849DB9 /* PGDocFixer */; };
 /* End PBXBuildFile section */
@@ -50,7 +48,6 @@
 		1117D6DF166AF1D7866230FE /* BiDirectionalLinkedListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiDirectionalLinkedListTests.swift; sourceTree = "<group>"; };
 		1117D7F45B3100CBC77E444B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1117D92E7434744556D48034 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		1117D9433C7A61AA29A9D52A /* LinkedListIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListIterator.swift; sourceTree = "<group>"; };
 		1117DAD4A9A2C4A2F196E8D3 /* BiDirectionalLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiDirectionalLinkedList.h; sourceTree = "<group>"; };
 		1117DBCF79C6588BAC2C3EB1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		1117DE4A0E353DEBC4088D63 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -142,7 +139,6 @@
 				1117D4C3053878EB945B7166 /* LinkedListNode.swift */,
 				1117D8E56FBF4C9E42E09320 /* Other */,
 				1117D53C76549EE773ABC15D /* BiDirectionalLinkedList.swift */,
-				1117D9433C7A61AA29A9D52A /* LinkedListIterator.swift */,
 			);
 			path = BiDirectionalLinkedList;
 			sourceTree = "<group>";
@@ -172,7 +168,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1117D11BA8FB7ECD0E38A3C6 /* BiDirectionalLinkedList.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +298,6 @@
 			files = (
 				1117D5684AF6F13AF59B9CA9 /* LinkedListNode.swift in Sources */,
 				1117D27C5EFD5144FD9E2609 /* BiDirectionalLinkedList.swift in Sources */,
-				1117DC6F3F731E70D2A03153 /* LinkedListIterator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
